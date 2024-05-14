@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    background: url(img.jpg.jpg) no-repeat center center fixed;
+}
+
+header {
+    background: blue;
+    color:brown;
+    padding: 10px 0;
+    text-align: center;
+    background: url(img.jpg.jpg) no-repeat center center fixed;
+}
+    
+
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+   
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: brown;
+    text-decoration: none;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+    background: rgb(224, 207, 119);
+    
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+    
+}
+
+section {
+    margin: 20px 0;
+    
+    
+}
+
+section h2 {
+    margin-top: 0;
+}
+
+.project {
+    margin: 10px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 10px 0 5px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px;
+    background: black;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #555;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: blue;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background: url(img.jpg.jpg) no-repeat center center fixed;
+}
